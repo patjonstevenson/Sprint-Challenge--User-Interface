@@ -274,11 +274,15 @@ header nav a {
 .about-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 45%;
   margin: 2.5% 2.5%;
   padding: 2.5% 0%;
   border-bottom: 1px dashed black;
+}
+
+.about-container img {
+  margin-bottom: 10px;
 }
 
 .button {
@@ -288,5 +292,6 @@ header nav a {
   border-radius: 10px;
   text-align: center;
   padding: 10px 20px;
+  margin-top: 10px;
   width: 40%;
 }
