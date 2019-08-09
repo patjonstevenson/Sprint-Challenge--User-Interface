@@ -295,3 +295,11 @@ header nav a {
   margin-top: 10px;
   width: 40%;
 }
+
+.work-together {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  margin: 20px 0px;
+}
